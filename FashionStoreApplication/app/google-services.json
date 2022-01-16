@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "433135333053",
+    "firebase_url": "https://fashionstoreapplication-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fashionstoreapplication",
+    "storage_bucket": "fashionstoreapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433135333053:android:bda1c4e5a1b463b5bf11d4",
+        "android_client_info": {
+          "package_name": "com.hoanghai.fashionstoreapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433135333053-t7vh2ikpk66c8ltccvfm3flnjuhcccbe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoanghai.fashionstoreapplication",
+            "certificate_hash": "b84c055722506229e83ee55489ebe98362867c76"
+          }
+        },
+        {
+          "client_id": "433135333053-cq0vrdq21oroj8onp6ikck3acar2le0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQgi_DxDqBW_2Go3tObwqrOv0IuMViXgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433135333053-cq0vrdq21oroj8onp6ikck3acar2le0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

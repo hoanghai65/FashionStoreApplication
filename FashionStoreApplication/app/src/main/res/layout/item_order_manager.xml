@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:elevation="30dp"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="20dp"
+    android:layout_marginVertical="8dp"
+    tools:context="OrderStatusManagerFragment.WaitForConfirmFragment"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivProduct"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:elevation="30dp"
+            android:src="@drawable/ic_shoes" />
+
+        <TextView
+            android:id="@+id/txtProductName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toRightOf="@id/ivProduct"
+            android:text="Product Name"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtProductName"
+            android:layout_alignStart="@+id/txtProductName"
+            android:layout_marginTop="8dp"
+            android:text="tổng tiền"
+            android:textColor="#AF0207"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtItemAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:text="x1"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/txtConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTotalPrice"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="#c62828"
+            android:fontFamily="sans-serif"
+            android:onClick="confirmOrder"
+            android:padding="4dp"
+            android:text="Xác nhận"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
